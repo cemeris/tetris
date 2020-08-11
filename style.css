@@ -1,0 +1,22 @@
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  width: 850px;
+  display:inherit;
+  justify-content: space-between;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 35px);
+  border: black;
+}
+
+.grid * {
+  padding: 14px;
+  margin:2px;
+  border: 2px inset grey;
+}
